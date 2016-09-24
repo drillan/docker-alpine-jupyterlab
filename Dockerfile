@@ -13,6 +13,7 @@ RUN apk update \
     musl-dev \
     python3-dev \
 && ln -s /usr/include/locale.h /usr/include/xlocale.h \
+&& python3 -m pip --no-cache-dir install pip -U \
 && python3 -m pip --no-cache-dir install \
     jupyter \
     jupyterlab \
