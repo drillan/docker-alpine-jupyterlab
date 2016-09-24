@@ -1,2 +1,2 @@
 # docker-alpine-jupyterlab
-Jupyter lab
+Minimal Jupyter Lab server
